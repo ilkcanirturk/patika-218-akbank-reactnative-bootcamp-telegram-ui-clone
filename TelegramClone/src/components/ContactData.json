@@ -1,0 +1,186 @@
+[
+    {
+        "roomId" : "1",
+        "contact" : [
+            {
+            "id" : "c1",
+            "firstName" : "Selin",
+            "lastName" : "Duran",
+            "pp" : "https://picsum.photos/id/237/200/300",
+            "lastSeen" : "last seen recently"
+            }
+        ],
+        "receivedMessages" : [
+            {
+                "messageText" : "Selam",
+                "dateTime" : "14:23"
+            },
+            {
+                "messageText" : "iyiyim, sen nasılsın?",
+                "dateTime" : "14:30"
+            },
+            {
+                "messageText" : "Tamam bana uyar.",
+                "dateTime" : "14:40"
+            },
+            {
+                "messageText" : "Saat 6 iyi. Çünkü saat 6 dan önce halledilmesi gereken işlerim var.",
+                "dateTime" : "14:45"
+            }
+        ],
+        "sentMessages" : [
+            {
+                "messageText" : "Merhaba, nasılsın?",
+                "dateTime" : "14:25"
+            },
+            {
+                "messageText" : "Ben de iyiyim, müsaitsen akşam yemek yemeye gidelim.",
+                "dateTime" : "14:32"
+            },
+            {
+                "messageText" : "Saat kaç gibi olsun?",
+                "dateTime" : "14:42"
+            }
+        ]
+    },
+    {
+        "roomId" : "2",
+        "contact" : [
+            {
+            "id" : "c2",
+            "firstName" : "Ali",
+            "lastName" : "Yılmaz",
+            "pp" : "https://picsum.photos/id/213/200/300",
+            "lastSeen" : "last seen recently"
+            }
+        ],
+        "receivedMessages" : [
+            {
+                "messageText" : "Yarın  geziye geliyor musun?",
+                "dateTime" : "13:21"
+            },
+            {
+                "messageText" : "Tamam görüşürüz.",
+                "dateTime" : "13:24"
+            }
+        ],
+        "sentMessages" : [
+            {
+                "messageText" : "Evet, geleceğim.",
+                "dateTime" : "13:22"
+            }
+        ]
+    },
+    {
+        "roomId" : "3",
+        "contact" : [
+            {
+            "id" : "c3",
+            "firstName" : "Derya",
+            "lastName" : "Tok",
+            "pp" : "https://picsum.photos/id/241/200/300",
+            "lastSeen" : "last seen recently"
+            }
+        ],
+        "receivedMessages" : [
+            {
+                "messageText" : "Geçen haftanın son raporlarını teslim ettim.",
+                "dateTime" : "13:12"
+            },
+            {
+                "messageText" : "Görüşürüz.",
+                "dateTime" : "13:15"
+            }
+        ],
+        "sentMessages" : [
+            {
+                "messageText" : "Tamam, görüşürüz.",
+                "dateTime" : "13:14"
+            }
+        ]
+    },
+    {
+        "roomId" : "4",
+        "contact" : [
+            {
+            "id" : "c4",
+            "firstName" : "Sena",
+            "lastName" : "Gök",
+            "pp" : "https://picsum.photos/id/237/200/300",
+            "lastSeen" : "last seen recently"
+            }
+        ],
+        "receivedMessages" : [
+            {
+                "messageText" : "Yarın saat 10 gibi müsaitim.",
+                "dateTime" : "11:21"
+            },
+            {
+                "messageText" : "Tamamdır.",
+                "dateTime" : "11:25"
+            }
+        ],
+        "sentMessages" : [
+            {
+                "messageText" : "Tamam, haberleşiriz.",
+                "dateTime" : "11:23"
+            }
+        ]
+    },
+    {
+        "roomId" : "5",
+        "contact" : [
+            {
+            "id" : "c5",
+            "firstName" : "Ahmet",
+            "lastName" : "Zorlu",
+            "pp" : "https://picsum.photos/id/213/200/300",
+            "lastSeen" : "last seen recently"
+            }
+        ],
+        "receivedMessages" : [
+            {
+                "messageText" : "Günaydın.",
+                "dateTime" : "10.56"
+            },
+            {
+                "messageText" : "Nasıl gidiyor?",
+                "dateTime" : "10:58"
+            }
+        ],
+        "sentMessages" : [
+            {
+                "messageText" : "Sana da günaydın!",
+                "dateTime" : "10:57"
+            }
+        ]
+    },
+    {
+        "roomId" : "6",
+        "contact" : [
+            {
+            "id" : "c6",
+            "firstName" : "Mert",
+            "lastName" : "Demir",
+            "pp" : "https://picsum.photos/id/241/200/300",
+            "lastSeen" : "last seen recently"
+            }
+        ],
+        "receivedMessages" : [
+            {
+                "messageText" : "Kanka sınava geç kalma.",
+                "dateTime" : "09:25"
+            },
+            {
+                "messageText" : "Hatırlatayım dedim :)",
+                "dateTime" : "09:30"
+            }
+        ],
+        "sentMessages" : [
+            {
+                "messageText" : "Yok tam zamanında oradayım.",
+                "dateTime" : "09:27"
+            }
+        ]
+    }
+]
