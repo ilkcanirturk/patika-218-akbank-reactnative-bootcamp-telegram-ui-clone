@@ -4,7 +4,7 @@ import { useNavigation } from '@react-navigation/native';
 
 
 
-//Doesn't changes anything about user. It needs to be develeped.
+//Doesn't changes anything about user. It needs to be develop.
 const Settings = () => {
   const { navigate } = useNavigation();
   return (
@@ -13,13 +13,13 @@ const Settings = () => {
       <Text style={styles.textName}>İlkcan</Text>
       <View style= {styles.containerInfo}>
         <Text style= {styles.textInfo}>
-            +90 507 442 1468
+            +90 555 333 2222
         </Text>
         <Text style= {styles.textInfo}>
             •
         </Text>
         <Text style= {styles.textInfo}>
-            @WitcherMaster
+            @GeraltOfRivia
         </Text>
       </View>
       <Pressable onPress={() => navigate('Home')} style={styles.logoutButtonStyle}>
