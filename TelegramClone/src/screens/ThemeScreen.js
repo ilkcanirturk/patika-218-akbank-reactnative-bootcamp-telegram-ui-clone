@@ -2,6 +2,9 @@ import { View, Text, TouchableOpacity, StyleSheet } from 'react-native'
 import React from 'react'
 import Octicons from 'react-native-vector-icons/Octicons';
 
+
+
+//Just buttons. Doesn't changes anything.
 const ThemeScreen = () => {
   return (
     <View style={styles.container}>
