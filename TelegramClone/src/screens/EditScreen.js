@@ -7,8 +7,8 @@ import AntDesign from "react-native-vector-icons/AntDesign";
 // Same like Login Screen. It needs to develop.
 const EditScreen = () => {
 
-  const [ad, onChangeName] = React.useState("");
-  const [soyad, onChangeSurname] = React.useState("");
+  const [firstname, onChangeName] = React.useState("");
+  const [lastname, onChangeSurname] = React.useState("");
   const [nickname, onChangeNickname] = React.useState("");
   const [number, onChangeNumber] = React.useState(null);
   const [selectedCountry, setSelectedCountry] = useState();
@@ -47,13 +47,13 @@ const EditScreen = () => {
         placeholder=' Name'
         style={styles.input}
         onChangeText={onChangeName}
-        value={ad}
+        value={firstname}
       />
       <TextInput
         placeholder=' Surname'
         style={styles.input}
         onChangeText={onChangeSurname}
-        value={soyad}
+        value={lastname}
       />
       <TextInput
         placeholder=' User Name'
