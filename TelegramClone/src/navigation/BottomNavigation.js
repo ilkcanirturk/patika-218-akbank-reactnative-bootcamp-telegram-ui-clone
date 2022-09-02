@@ -9,21 +9,23 @@ import Settings from "../screens/Settings";
 import ContactList from "../screens/ContactList";
 import ChatList from "../screens/ChatList";
 
-
+//importing icon libraries and necessary components.
 
 const BottomNav = createBottomTabNavigator();
 
 
 const BottomNavigation = () => {
-
+    // For use navigation
     const { navigate } = useNavigation();
 
     return (
         <BottomNav.Navigator initialRouteName="Chats" screenOptions={
             {
+              // Configuring the Bottom Tab Navigation
               tabBarStyle:  { height: 70 }
             } 
           }>
+            {/* Total 3 Tab Bar Screen */}
             <BottomNav.Screen
                 name="Contacts"
                 component={ContactList}
@@ -35,6 +37,7 @@ const BottomNavigation = () => {
                     headerStyle: { backgroundColor: 'white' },
                     headerTitleStyle: { color: 'black' },
                     headerTitleAlign: 'center',
+                    //Added Header Options for Bottom Tab Navigation. Displays only this Header. Stack Nav's Header Shown is false.
                     headerLeft: () => {
                         return (
                             <View style={{ width: 60, height: 40, paddingTop: 12 }}>
@@ -49,6 +52,7 @@ const BottomNavigation = () => {
                             </View>
                         );
                     },
+                    //Tab Bar configuration.
                     tabBarIcon: (tabInfo) => {
                         return (
                             <Ionicons name={tabInfo.focused ? "ios-person-circle" : "ios-person-circle-outline"} size={30} color={tabInfo.focused ? "#229ED9" : "gray"} />
@@ -82,6 +86,7 @@ const BottomNavigation = () => {
                             </View>
                         );
                     },
+                    //Tab bar configurations.
                     tabBarIcon: (tabInfo) => {
                         return (
                             <Ionicons name={tabInfo.focused ? "ios-chatbubbles" : "chatbubbles-outline"} size={30} color={tabInfo.focused ? "#229ED9" : "gray"} />
@@ -102,6 +107,7 @@ const BottomNavigation = () => {
                     headerTitleStyle: { color: 'black' },
                     headerTitleAlign: 'center',
                     headerLeft: () => {
+                        //that icon is navigates to Theme Screen.
                         return (
                             <Pressable onPress={() => navigate('ThemeScreen')}>
                                 <View style={{ width: 60, height: 40, paddingTop: 12 }}>
@@ -112,11 +118,13 @@ const BottomNavigation = () => {
                     },
                     headerRight: () => {
                         return (
+                            //Navigates to Edit Screen .
                             <View>
                                 <Text style={{ color: '#229ED9', fontSize: 16, marginRight: 20 }} onPress={() => navigate('EditScreen')}>Edit</Text>
                             </View>
                         );
                     },
+                    //Tab bar configurations.
                     tabBarIcon: (tabInfo) => {
                         return (
                             <Ionicons name={tabInfo.focused ? "settings" : "settings-outline"} size={30} color={tabInfo.focused ? "#229ED9" : "gray"} />
