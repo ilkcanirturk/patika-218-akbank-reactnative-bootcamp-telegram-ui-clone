@@ -8,10 +8,9 @@ const ChatListCard = ({ data }) => {
   const onPress = () => navigation.navigate('Chat', {
     firstName: data.item.contact[0].firstName,
     pp: data.item.contact[0].pp,
-    lastSeen: data.item.contact[0].lastSeen,
     textData: data.item.receivedMessages,
   })
-
+//Chat list card component
   return (
     <Pressable onPress={onPress}>
       <View style={styles.container}>
