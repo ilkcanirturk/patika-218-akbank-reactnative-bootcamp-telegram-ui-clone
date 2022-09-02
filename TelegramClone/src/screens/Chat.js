@@ -6,7 +6,7 @@ import ChatCard from '../components/ChatCard';
 
 const Chat = ({route}) => {
   const {firstName, pp, textData} = route.params;
-
+  //Chat header for Chat Screen. I've got a problem with profile picture in here.
   return (
     <View
       style={styles.container}>

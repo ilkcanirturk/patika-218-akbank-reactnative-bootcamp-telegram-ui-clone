@@ -1,6 +1,9 @@
 import {View, Text,  StyleSheet} from 'react-native';
 import React from 'react';
 
+
+
+//Chatcard component. 
 const ChatCard = ({textData}) => {
   return (
     <View style={styles.textContainer}>

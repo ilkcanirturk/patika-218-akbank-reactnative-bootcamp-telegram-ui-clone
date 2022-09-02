@@ -3,6 +3,9 @@ import React from 'react';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import {useNavigation} from '@react-navigation/native';
 
+
+
+//Custom Header component for Chat Screen. Default one is disabled.
 const ChatHeader = ({firstName, pp}) => {
  
   const navigation = useNavigation();

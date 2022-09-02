@@ -4,7 +4,7 @@ import { useNavigation } from '@react-navigation/core';
 import { Picker } from '@react-native-picker/picker';
 import AntDesign from "react-native-vector-icons/AntDesign";
 
-
+//Login Screen. It needs to develop.
 const LoginPage = () => {
 
     const [ad, onChangeName] = React.useState("");
@@ -13,6 +13,7 @@ const LoginPage = () => {
     const [number, onChangeNumber] = React.useState(null);
     const [selectedCountry, setSelectedCountry] = useState();
     
+    //navigation onPress
     const navigation = useNavigation();
     const onPress = () => {
         navigation.navigate('BottomNavigation', null);

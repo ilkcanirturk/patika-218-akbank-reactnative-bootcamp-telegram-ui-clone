@@ -3,10 +3,11 @@ import React, {useState} from 'react';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 const ChatInput = () => {
+  //for change the microphone icon to upperArrow icon when typing somethings in TextInput.
   const [value, setValue] =
     useState(
       0,
-    ); /* bu state tanımını inputa bir değer girdiğimizde yanda ki mesajı gönderme icoununu değiştirmek için kullandık. Value değeri arttığında microphone iconu Send ikonuna dönüşüyor. */
+    ); 
   return (
     <View style={{ backgroundColor: 'lightgray'}}>
       <View style={styles.container}>

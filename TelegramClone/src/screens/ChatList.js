@@ -4,15 +4,13 @@ import ChatListCard from '../components/ChatListCard';
 import data from '../components/ContactData.json';
 
 const ChatList = () => {
-    {
-      /* uygulama çalıştığında gelen ilk ekran mesajlaşılan kişiler bu sayfada render edilecek. */
-    }
+    // renders the Flatlist
     const renderSeperator = () => <View style={styles.seperatorStyle} />;
     return (
       <View>
         <FlatList
           ItemSeparatorComponent={
-            renderSeperator /* her bir card yapısının arasına çizgi ekler. */
+            renderSeperator 
           }
           keyExtractor={item => item.id}
           data={data}

@@ -2,6 +2,9 @@ import { StyleSheet, Text, View, Image, Pressable } from 'react-native'
 import React from 'react';
 import { useNavigation } from '@react-navigation/native';
 
+
+
+//Doesn't changes anything about user. It needs to be develeped.
 const Settings = () => {
   const { navigate } = useNavigation();
   return (

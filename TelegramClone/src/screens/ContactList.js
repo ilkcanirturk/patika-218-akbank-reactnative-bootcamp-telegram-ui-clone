@@ -4,6 +4,7 @@ import React from 'react';
 import ContactCard from '../components/ContactCard';
 import data from '../components/ContactData.json';
 
+//ContactList component.
 const ContactList = () => {
     const renderSeperator = () => <View style={styles.seperator} />;
     return (

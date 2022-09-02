@@ -2,9 +2,11 @@ import { View, Text, Image, Pressable, StyleSheet } from 'react-native';
 import React from 'react';
 import { useNavigation } from '@react-navigation/native';
 
+
+//ContactCard component.
 const ContactCard = ({ data }) => {
   const navigation = useNavigation();
-
+ //Navigates to Chat Screen with OnPress
   const onPress = () => navigation.navigate('Chat', {
     firstName: data.item.contact[0].firstName,
     photo: data.item.contact[0].pp,

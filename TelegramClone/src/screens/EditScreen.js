@@ -4,8 +4,8 @@ import { useNavigation } from '@react-navigation/core';
 import { Picker } from '@react-native-picker/picker';
 import AntDesign from "react-native-vector-icons/AntDesign";
 
-
-const LoginPage = () => {
+// Same like Login Screen. It needs to develop.
+const EditScreen = () => {
 
   const [ad, onChangeName] = React.useState("");
   const [soyad, onChangeSurname] = React.useState("");
@@ -76,7 +76,7 @@ const LoginPage = () => {
   )
 }
 
-export default LoginPage
+export default EditScreen
 
 const styles = StyleSheet.create({
   container1: {
