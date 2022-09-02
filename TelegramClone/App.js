@@ -13,7 +13,7 @@ const App = () => {
   
   
   
-
+//created BottomTabNavigation in same level with Stack Navigation
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName='Home'>
@@ -22,6 +22,7 @@ const App = () => {
           component={Home}
           options={{ headerShown : false}}
         />
+        {/* BottomTabNav in same level with Stack Screens. So we can use Stack navigation and BottomTabNavigation in same time. */}
         <Stack.Screen 
           name="BottomNavigation" 
           component={BottomNavigation}
@@ -29,6 +30,7 @@ const App = () => {
             headerShown : false,
           }}
         />
+        {/* Stack Navigation Screens */}
         <Stack.Screen name="Chat" component= {Chat} options= {{
           headerShown : false,
         }}/>
